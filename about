@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About</title>
+  <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<nav class="navbar">
+<a href="posts.html"  class="nav-btn"><< back</a>
+
+</nav>
+
+    <h1>about</h1>
+
+
+    <p class="normal-text">anhthology is a collection of essays on culture, philosophy, media, and personal growth. it's where i make sense of the world and things that intrigue me, of books i read and films i love, questions that keep me up at night. occasionally, i might post some of my art here too. </p>
+  </body>
+</html>
