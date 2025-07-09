@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Blog</title>
+  <link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<nav class="navbar">
+<a href="posts.html"  class="nav-btn">posts</a>
+  <a href="about.html"  class="nav-btn">about</a>
+
+</nav>
+
+    <h1>anhthology</h1>
+    <p class="normal-text">a project by Nguyen Bao Anh</p>
+  </body>
+</html>
