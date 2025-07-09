@@ -6,7 +6,9 @@
   </head>
   <body>
 <nav class="navbar">
-<a href="posts.html"  class="nav-btn"><< back</a>
+<a href="index.html"  class="nav-btn">home page</a>
+<a href="posts.html"  class="nav-btn">posts</a>
+
 
 </nav>
 
