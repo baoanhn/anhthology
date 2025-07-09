@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Posts</title>
+  <!-- keep your main stylesheet → */style.css*/  -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ▸ quick, self‑contained styles for the post grid.
+       ▸ move these rules into style.css later if you prefer                         -->
+  <style>
+    .post-feed {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem 4rem;
+    }
+
+    .post-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .post-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .post-link {
+      color: inherit;
+      text-decoration: none;
+      display: block;
+      height: 100%;
+    }
+
+    .post-thumb {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .post-title {
+      font-size: 1.4rem;
+      margin: 1rem 1rem 0;
+      color: #da7e80; /* matches nav‑button colour */
+    }
+
+    .post-excerpt {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: 0.5rem 1rem 1.5rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <!-- ▾ NAVBAR ▾ -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-btn">home page</a>
+    <a href="about.html" class="nav-btn">about</a>
+  </nav>
+
+  <h1 class="page-title">posts</h1>
+ <style>
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 48px;
+      color: #f08080;
+    }
+  </style>
+
+  <!-- ▾ FEED ▾  add‑or‑duplicate <article> blocks for new entries   -->
+  <section class="post-feed">
+    <article class="post-card">
+      <a href="saturn.html" class="post-link">
+<img src="hoasen.jpg" alt="Lotus flower" class="post-thumb" />
+        <h2 class="post-title">Saturn</h2>
+        <p class="post-excerpt">
+          Why the ringed giant still fascinates astronomers four centuries after Galileo…
+        </p>
+      </a>
+    </article>
+
+    <article class="post-card">
+      <a href="posts/starlink.html" class="post-link">
+        <img src="images/starlink.jpg" alt="Starlink satellites" class="post-thumb" />
+        <h2 class="post-title">Can You See Starlink From Your Backyard?</h2>
+        <p class="post-excerpt">
+          A quick guide to spotting that bright “train” of satellites after sunset…
+        </p>
+      </a>
+    </article>
+
+    <!-- ◁◁  copy‑paste this whole <article> to add more posts ▷▷ -->
+  </section>
+</body>
+</html>
