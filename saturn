@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About</title>
+  <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<nav class="navbar">
+<a href="posts.html"  class="nav-btn"><< back</a>
+
+</nav>
+
+    <h1>about</h1>
+    <p class="normal-text">anhthology is a..</p>
+  </body>
+</html>
